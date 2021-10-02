@@ -148,6 +148,7 @@ header {
   .category-section .category-wrapper {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     background: green !important; }
     .category-section .category-wrapper .category-box {
       width: 24%;
