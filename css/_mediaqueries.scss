@@ -1,0 +1,114 @@
+
+
+/* ---------------------------------------------
+		MEDIAQUERIES 992 PX
+--------------------------------------------- */
+ @media screen and (max-width: 992px)
+ {
+
+     .clientsection{
+         flex-wrap: wrap;
+    img{
+         margin: 20px auto !important;
+    }
+    }
+
+
+
+   .heading-text{
+        padding-top: 500px !important;
+   }
+
+   .heading-section{
+   .heading-img img{
+      margin-top: 30px !important;
+   }
+   }
+ 	.client-section{
+ 		margin-top: 300px !important;
+ 	}
+
+ 	///headingsectino
+ 
+ 	.category-wrapper{
+  		 flex-wrap: wrap;
+ 	.category-box{
+ 		width: 45% !important;
+ 		margin: 15px auto !important;
+ 	}
+ 	}
+ 	////category-wrapper
+
+ }
+
+
+
+ /* ---------------------------------------------
+		MEDIAQUERIES 768 PX
+--------------------------------------------- */
+ @media screen and (max-width: 768px)
+ {
+    .contact-section{
+          width: 100%;
+    }
+    .notifysearch{
+         width: 100% !important;
+    }
+ 	 .top-search{
+ 	 	width: 100% !important;
+ 	 	flex-wrap: wrap;
+ 	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* ---------------------------------------------
+		MEDIAQUERIES 576 PX
+--------------------------------------------- */
+ @media screen and (max-width: 576px)
+ {
+
+    .banner-counter{
+          flex-direction: column;
+          line-height: 40px;
+    }
+   
+	.category-wrapper{
+  		 flex-wrap: wrap;
+ 	.category-box{
+ 		width: 96% !important;
+ 	}
+ 	}
+ }
+
+
+ @media screen and (max-width: 450px)
+ {
+    header{ 
+        padding-top: 100px !important;
+      }
+     .heading-section{
+          height: 40vh !important;
+         .heading-text {
+            h1{
+                 font-size: 50px !important;
+             }
+             p{
+                  font-size: 17px !important;
+             }
+        }
+     }
+
+     .clientsection{
+          margin-top: -100px !important;
+     }
+ }

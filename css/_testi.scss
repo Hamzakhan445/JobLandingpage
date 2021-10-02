@@ -1,0 +1,103 @@
+
+.testimonial-section{
+	 margin-top: 100px;
+ 
+ .testi-box{
+ 	background: white;
+ 	padding: 15px;
+ 	border-bottom: 5px solid $maincolor;
+ 	border-top-right-radius: 20px;
+ 	border-top-left-radius: 20px;
+ 	box-shadow: 3px 5px 12px lightgrey;
+ 	cursor: pointer;
+&:hover{
+ 	 transition: 0.5s ease-in;
+ }
+*{
+	margin-top: 25px;
+}
+.userimg img{
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	margin: 0 auto;
+}
+}
+}
+
+
+.owl-prev{
+	border: 1px solid $maincolor !important;
+	background: transparent !important;
+	 width: 60px;
+	 height: 60px;
+	 border-radius: 10px;
+	 font-size: xx-large !important;
+	 color: $maincolor !important;
+	 position: absolute;
+	 right: 7%;
+	 top: -25%;
+&:hover{
+	background: $maincolor !important;
+	transition: 0.4s ease;
+	color: white !important;
+}
+}
+.owl-next{
+		 background: $maincolor !important;
+
+	 width: 60px;
+	 height: 60px;
+	 border-radius: 10px;
+	 font-size: xx-large !important;
+	 color: white !important;
+	 position: absolute;
+	 right: 0;
+	 top: -25%;
+
+}
+ 
+
+
+
+
+
+
+ .notify-section{
+ 	margin-top: 100px;
+ 	background: $maincolor;
+ 	width: 100%;
+ 	padding: 30px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: white;
+ 	border-radius: 20px;
+ 	position: relative;
+&::after{
+	content:"";
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: $secondary;
+ 	left: -10%;
+	border-radius: 100px;
+	top: -20%;
+	z-index: -99;
+	box-shadow: 3px 5px 12px black;
+}
+
+.form-group{
+	background: white;
+	width: 80%;
+	padding: 9px;
+	margin: 20px auto;
+.email-search{
+	width: 70%;
+	padding: 10px;
+	border: none;
+	outline: none;
+}
+}
+
+ }

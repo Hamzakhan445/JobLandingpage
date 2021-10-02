@@ -1,0 +1,66 @@
+.banner-section{
+	margin-top: 100px;
+.bannertext{
+h1{
+	color: $secondary;
+}
+span{
+	color: $maincolor;
+}
+h5{
+	color: $secondary;
+	opacity: 0.6;
+}
+}
+.bannerimg{
+p{
+	font-size: 20px;
+	color: $secondary
+}
+.count{
+	position: relative;
+	color: $maincolor;
+}
+.count::after{
+	content: "K+";
+	position: absolute;
+}
+}
+}
+
+.banner-counter{
+	 width: 100%;
+ 	 display: flex;
+	 justify-content: space-between;
+	 text-align: center;
+}
+
+.banner-section2{
+	margin-top: 100px;
+.bannertext{
+h1{
+	color: $secondary;
+}
+span{
+	color: $maincolor;
+}
+li{
+	color: $secondary;
+	font-size: 20px;
+ }
+}
+.bannerimg{
+p{
+	font-size: 20px;
+	color: $secondary
+}
+.count{
+	position: relative;
+	color: $maincolor;
+}
+.count::after{
+	content: "K+";
+	position: absolute;
+}
+}
+}

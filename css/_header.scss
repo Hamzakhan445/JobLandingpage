@@ -1,0 +1,148 @@
+$maincolor : #1a93af;
+$secondary : #264065;
+$textcolor : grey;
+
+
+ 
+
+header{
+	 width: 100%;
+	 height: 100vh;
+	 background: lightyellow;
+	 padding-top: 100px !important;
+///header
+.nav-menu{
+	 width: 100%;
+ 	 padding: 10px;
+ 	 background: lightyellow;
+ ///navmenu
+.toplogo{
+	 color: $secondary !important;
+	 font-size: xx-large;
+	 font-weight: bold;
+	 text-decoration: none;
+}
+////logo
+.menu{
+list-style: none;
+margin-top: 15px;
+li{
+	padding: 15px;
+}
+
+
+a{
+	text-decoration: none;
+	color : $textcolor !important;
+	font-size: 18px;
+}
+}
+
+}
+////navbar menu section 
+
+
+.heading-section{
+ height: 80vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+///hading
+
+.heading-text{
+h1{
+	 font-size: 4rem;
+	 color: $secondary;
+ }
+span{
+	 color: $maincolor;
+}
+h1,p{
+	margin-top: 17px;
+}
+ 
+.top-search{
+background: white;
+display: flex;
+margin-top: 20px;
+width: 90%;
+i{
+	 font-size: 19px;
+	 color: $textcolor;
+}
+.job-search{
+border: none;
+background: none;
+padding: 10px;
+}
+.job-search:focus{
+	 border: none;
+	 outline: none;
+}
+}
+//topsearch
+}
+
+
+
+}
+///heading seciton
+
+
+
+}
+
+
+.menuitem{
+	position: relative;
+}
+
+.sub-menu{
+	background: white;
+	box-shadow: 3px 5px 12px lightgrey;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+ 	left: 0;
+	top: 120%;
+	opacity: 0;
+	transition: all 0.4s ease;
+	visibility: hidden;
+	width: 250px;
+	border-bottom: 5px solid $maincolor;
+	justify-content: flex-start;
+	align-items: flex-start;
+	z-index: 99999;
+	list-style: none;
+}
+.menuitem:hover .sub-menu{
+	opacity: 1;
+	top: 100%;
+	visibility: visible
+}
+.sub-menu li a:hover{
+ 	color: $maincolor !important;
+ }
+
+
+
+
+.nav-scroll{
+	 background: white;
+	 box-shadow: 3px 5px 12px lightgrey;
+	 z-index: 9999;
+	 transition: all 0.3s ease;
+	 width: 100%;
+}
+
+
+
+.contact-section{
+	 margin-top: 150px;
+	 width: 70%;
+}
+
+
+
+

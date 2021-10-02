@@ -1,0 +1,26 @@
+
+
+
+footer{
+	width: 100%;
+  	padding: 10px;
+ 	margin-top: 100px;
+ 	border-bottom: 15px solid $maincolor;
+ img{
+ 	cursor: pointer;
+ }
+ button{
+ 	 background: $maincolor;
+ 	 border: none;
+ 	 color: white;
+ 	 padding: 15px;
+ 	 font-size: 20;
+ 	 border-radius: 10px;
+ }
+}
+ .footerbox{
+	background: $maincolor;
+	color:  white !important;
+	width: 100%;
+ 
+ }	

@@ -1,0 +1,62 @@
+$maincolor : #1a93af;
+$secondary : #264065;
+$textcolor : grey;
+
+
+.category-section{
+	margin-top: 100px;
+h1{
+	color: $secondary;
+	font-weight: bold;
+}
+span{
+	 color: $maincolor;
+}
+
+.category-wrapper{
+	width: 100%;
+	display: flex;
+ 	flex-wrap: wrap;
+ .category-box{
+	 width: 23%;
+ 	 padding: 15px;
+ 	 box-shadow: 3px 5px 12px lightgrey;
+ 	 background: white;
+ 	 margin:10px;
+ 	 color: $textcolor;
+ 	 border-radius: 10px;
+h3, p{
+	 margin-top: 15px;
+}
+p{
+	color: $textcolor;
+}
+h3{
+	color: $secondary;
+	font-size: x-large;
+}
+a{
+	color: $maincolor !important;
+}
+&:hover{
+	 background: $secondary;
+ 	 transition: 0.5s;
+}
+&:hover h3,p a{
+	color: white;
+}
+}	
+//c/ategorybox
+}
+
+}
+ .category-box:hover p, a{
+ 	color: white !important;
+ }
+
+
+ .category-img{
+ 	 width: 60px;
+ 	 height: 60px;
+ 	 object-fit: cover;
+ }
