@@ -16,7 +16,7 @@ span{
 .category-wrapper{
 	width: 100%;
 	display: flex;
-	background: red;
+	background: red !important;
  	flex-wrap: wrap;
  .category-box{
 	 width: 23%;
@@ -27,7 +27,7 @@ span{
  	 color: $textcolor;
  	 border-radius: 10px;
 h3, p{
-	 margin-top: 15px;''
+	 margin-top: 15px;
 }
 p{
 	color: $textcolor;
