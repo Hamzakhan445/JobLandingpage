@@ -16,14 +16,13 @@ span{
 .category-wrapper{
 	width: 100%;
 	display: flex;
-	background: red !important;
- 	flex-wrap: wrap;
+  	flex-wrap: wrap;
  .category-box{
 	 width: 23%;
  	 padding: 15px;
  	 box-shadow: 3px 5px 12px lightgrey;
  	 background: white;
- 	 margin: 0 auto !important;
+ 	 margin: 10px auto !important;
 
  	 color: $textcolor;
  	 border-radius: 10px;
