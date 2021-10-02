@@ -1,85 +1,502 @@
-/*
-Error: Invalid CSS after "...in-top: 15px;''": expected "{", was "}"
-        on line 31 of C:/Users/Professional/Documents/JobLandingpage/css/_category.scss
-        from line 23 of C:\Users\Professional\Documents\JobLandingpage\css\style.scss
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
 
-26:  	 margin:10px;
-27:  	 color: $textcolor;
-28:  	 border-radius: 10px;
-29: h3, p{
-30: 	 margin-top: 15px;''
-31: }
-32: p{
-33: 	color: $textcolor;
-34: }
-35: h3{
-36: 	color: $secondary;
+body {
+  background: #f8f2ed !important;
+  font-family: 'Sora', sans-serif !important; }
 
-Backtrace:
-C:/Users/Professional/Documents/JobLandingpage/css/_category.scss:31
-C:\Users\Professional\Documents\JobLandingpage\css\style.scss:23
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...in-top: 15px;''\": expected \"{\", was \"}\"\A         on line 31 of C:/Users/Professional/Documents/JobLandingpage/css/_category.scss\A         from line 23 of C:\Users\Professional\Documents\JobLandingpage\css\style.scss\A \A 26:  	 margin:10px;\A 27:  	 color: $textcolor;\A 28:  	 border-radius: 10px;\A 29: h3, p{\A 30: 	 margin-top: 15px;''\A 31: }\A 32: p{\A 33: 	color: $textcolor;\A 34: }\A 35: h3{\A 36: 	color: $secondary;"; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 500 !important; }
+
+/* Another sas files include  */
+.sideoverlay {
+  background: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  z-index: 9999;
+  display: none;
+  left: -100%; }
+  .sideoverlay .sm-sidebar {
+    background: orange;
+    width: 40vw;
+    height: 100vh;
+    position: fixed; }
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: lightyellow;
+  padding-top: 100px !important; }
+  header .nav-menu {
+    width: 100%;
+    padding: 10px;
+    background: lightyellow; }
+    header .nav-menu .toplogo {
+      color: #264065 !important;
+      font-size: xx-large;
+      font-weight: bold;
+      text-decoration: none; }
+    header .nav-menu .menu {
+      list-style: none;
+      margin-top: 15px; }
+      header .nav-menu .menu li {
+        padding: 15px; }
+      header .nav-menu .menu a {
+        text-decoration: none;
+        color: grey !important;
+        font-size: 18px; }
+  header .heading-section {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header .heading-section .heading-text h1 {
+      font-size: 4rem;
+      color: #264065; }
+    header .heading-section .heading-text span {
+      color: #1a93af; }
+    header .heading-section .heading-text h1, header .heading-section .heading-text p {
+      margin-top: 17px; }
+    header .heading-section .heading-text .top-search {
+      background: white;
+      display: flex;
+      margin-top: 20px;
+      width: 90%; }
+      header .heading-section .heading-text .top-search i {
+        font-size: 19px;
+        color: grey; }
+      header .heading-section .heading-text .top-search .job-search {
+        border: none;
+        background: none;
+        padding: 10px; }
+      header .heading-section .heading-text .top-search .job-search:focus {
+        border: none;
+        outline: none; }
+
+.menuitem {
+  position: relative; }
+
+.sub-menu {
+  background: white;
+  box-shadow: 3px 5px 12px lightgrey;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 120%;
+  opacity: 0;
+  transition: all 0.4s ease;
+  visibility: hidden;
+  width: 250px;
+  border-bottom: 5px solid #1a93af;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 99999;
+  list-style: none; }
+
+.menuitem:hover .sub-menu {
+  opacity: 1;
+  top: 100%;
+  visibility: visible; }
+
+.sub-menu li a:hover {
+  color: #1a93af !important; }
+
+.nav-scroll {
+  background: white;
+  box-shadow: 3px 5px 12px lightgrey;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  width: 100%; }
+
+.contact-section {
+  margin-top: 150px;
+  width: 70%; }
+
+.clientsection {
+  background: white;
+  padding: 20px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .clientsection .clientimg {
+    width: 200px;
+    height: 50px;
+    object-fit: contain;
+    margin: 20px; }
+
+.googleimg {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  object-fit: contain; }
+
+.category-section {
+  margin-top: 100px; }
+  .category-section h1 {
+    color: #264065;
+    font-weight: bold; }
+  .category-section span {
+    color: #1a93af; }
+  .category-section .category-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+    .category-section .category-wrapper .category-box {
+      width: 23%;
+      padding: 15px;
+      box-shadow: 3px 5px 12px lightgrey;
+      background: white;
+      margin: 10px;
+      color: grey;
+      border-radius: 10px; }
+      .category-section .category-wrapper .category-box h3, .category-section .category-wrapper .category-box p {
+        margin-top: 15px; }
+      .category-section .category-wrapper .category-box p {
+        color: grey; }
+      .category-section .category-wrapper .category-box h3 {
+        color: #264065;
+        font-size: x-large; }
+      .category-section .category-wrapper .category-box a {
+        color: #1a93af !important; }
+      .category-section .category-wrapper .category-box:hover {
+        background: #264065;
+        transition: 0.5s; }
+      .category-section .category-wrapper .category-box:hover h3, .category-section .category-wrapper .category-box p a {
+        color: white; }
+
+.category-box:hover p, a {
+  color: white !important; }
+
+.category-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover; }
+
+/* ---------------------------------------------
+		MEDIAQUERIES 992 PX
+--------------------------------------------- */
+@media screen and (max-width: 992px) {
+  .clientsection {
+    flex-wrap: wrap; }
+    .clientsection img {
+      margin: 20px auto !important; }
+
+  .heading-text {
+    padding-top: 500px !important; }
+
+  .heading-section .heading-img img {
+    margin-top: 30px !important; }
+
+  .client-section {
+    margin-top: 300px !important; }
+
+  .category-wrapper {
+    flex-wrap: wrap; }
+    .category-wrapper .category-box {
+      width: 45% !important;
+      margin: 15px auto !important; } }
+ /* ---------------------------------------------
+		MEDIAQUERIES 768 PX
+--------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .contact-section {
+    width: 100%; }
+
+  .notifysearch {
+    width: 100% !important; }
+
+  .top-search {
+    width: 100% !important;
+    flex-wrap: wrap; } }
+ /* ---------------------------------------------
+		MEDIAQUERIES 576 PX
+--------------------------------------------- */
+@media screen and (max-width: 576px) {
+  .banner-counter {
+    flex-direction: column;
+    line-height: 40px; }
+
+  .category-wrapper {
+    flex-wrap: wrap; }
+    .category-wrapper .category-box {
+      width: 96% !important; } }
+@media screen and (max-width: 450px) {
+  header {
+    padding-top: 100px !important; }
+
+  .heading-section {
+    height: 40vh !important; }
+    .heading-section .heading-text h1 {
+      font-size: 50px !important; }
+    .heading-section .heading-text p {
+      font-size: 17px !important; }
+
+  .clientsection {
+    margin-top: -100px !important; } }
+.banner-section {
+  margin-top: 100px; }
+  .banner-section .bannertext h1 {
+    color: #264065; }
+  .banner-section .bannertext span {
+    color: #1a93af; }
+  .banner-section .bannertext h5 {
+    color: #264065;
+    opacity: 0.6; }
+  .banner-section .bannerimg p {
+    font-size: 20px;
+    color: #264065; }
+  .banner-section .bannerimg .count {
+    position: relative;
+    color: #1a93af; }
+  .banner-section .bannerimg .count::after {
+    content: "K+";
+    position: absolute; }
+
+.banner-counter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+
+.banner-section2 {
+  margin-top: 100px; }
+  .banner-section2 .bannertext h1 {
+    color: #264065; }
+  .banner-section2 .bannertext span {
+    color: #1a93af; }
+  .banner-section2 .bannertext li {
+    color: #264065;
+    font-size: 20px; }
+  .banner-section2 .bannerimg p {
+    font-size: 20px;
+    color: #264065; }
+  .banner-section2 .bannerimg .count {
+    position: relative;
+    color: #1a93af; }
+  .banner-section2 .bannerimg .count::after {
+    content: "K+";
+    position: absolute; }
+
+.testimonial-section {
+  margin-top: 100px; }
+  .testimonial-section .testi-box {
+    background: white;
+    padding: 15px;
+    border-bottom: 5px solid #1a93af;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 3px 5px 12px lightgrey;
+    cursor: pointer; }
+    .testimonial-section .testi-box:hover {
+      transition: 0.5s ease-in; }
+    .testimonial-section .testi-box * {
+      margin-top: 25px; }
+    .testimonial-section .testi-box .userimg img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      margin: 0 auto; }
+
+.owl-prev {
+  border: 1px solid #1a93af !important;
+  background: transparent !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: xx-large !important;
+  color: #1a93af !important;
+  position: absolute;
+  right: 7%;
+  top: -25%; }
+  .owl-prev:hover {
+    background: #1a93af !important;
+    transition: 0.4s ease;
+    color: white !important; }
+
+.owl-next {
+  background: #1a93af !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: xx-large !important;
+  color: white !important;
+  position: absolute;
+  right: 0;
+  top: -25%; }
+
+.notify-section {
+  margin-top: 100px;
+  background: #1a93af;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  position: relative; }
+  .notify-section::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #264065;
+    left: -10%;
+    border-radius: 100px;
+    top: -20%;
+    z-index: -99;
+    box-shadow: 3px 5px 12px black; }
+  .notify-section .form-group {
+    background: white;
+    width: 80%;
+    padding: 9px;
+    margin: 20px auto; }
+    .notify-section .form-group .email-search {
+      width: 70%;
+      padding: 10px;
+      border: none;
+      outline: none; }
+
+footer {
+  width: 100%;
+  padding: 10px;
+  margin-top: 100px;
+  border-bottom: 15px solid #1a93af; }
+  footer img {
+    cursor: pointer; }
+  footer button {
+    background: #1a93af;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 20;
+    border-radius: 10px; }
+
+.footerbox {
+  background: #1a93af;
+  color: white !important;
+  width: 100%; }
+
+.pre-loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999999999;
+  transition: all 0.5s ease;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .pre-loader h3 {
+    color: #1a93af; }
+
+.loader {
+  width: 120px;
+  height: 120px;
+  margin: 30px auto 0;
+  position: relative;
+  animation: rotate 3s ease-out infinite; }
+
+.loader div {
+  background-color: #df0abc;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform-origin: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  animation: scale 2s ease-in infinite; }
+
+.loader div:nth-child(1) {
+  top: 0%;
+  left: 50%;
+  animation-delay: 0; }
+
+.loader div:nth-child(2) {
+  top: 9%;
+  left: 78%;
+  animation-delay: 0.4s; }
+
+.loader div:nth-child(3) {
+  top: 30%;
+  left: 96%;
+  animation-delay: 0.8s; }
+
+.loader div:nth-child(4) {
+  top: 58%;
+  left: 100%;
+  animation-delay: 1.2s; }
+
+.loader div:nth-child(5) {
+  top: 84%;
+  left: 88%;
+  animation-delay: 1.6s; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); }
+  65% {
+    transform: rotate(180deg); }
+  95%,100% {
+    transform: rotate(360deg); } }
+@keyframes scale {
+  0%,60%,100% {
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%); }
+  30% {
+    border-radius: 10%;
+    opacity: 0.5;
+    transform: scale(1.5) translate(-50%, -50%); } }
+.button {
+  width: 130px;
+  font-size: 18px;
+  height: 50px;
+  border: none;
+  background: #1a93af;
+  color: white;
+  border-radius: 10px; }
+  .button:hover {
+    background: white;
+    color: #1a93af;
+    transition: 0.5s ease;
+    border: 1px solid #1a93af; }
+
+.button-outline {
+  width: 130px;
+  font-size: 18px;
+  height: 50px;
+  border: none;
+  background: #1a93af;
+  color: white;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #1a93af;
+  color: #1a93af; }
+  .button-outline:hover {
+    background: #1a93af;
+    color: white;
+    transition: 0.5s ease; }
+
+.simplebtn {
+  background: #1a93af;
+  width: 120px;
+  border: none;
+  color: white;
+  padding: 10px; }
+
+.smtoggle {
+  cursor: pointer !important; }
+
+.remove {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
