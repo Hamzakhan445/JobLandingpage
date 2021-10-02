@@ -181,9 +181,10 @@ header {
   object-fit: cover; }
 
 @media screen and (max-width: 1177px) {
-  header {
-    padding-top: 170px  !important;
-    background: green !important; } }
+  .category-wrapper {
+    background: red !important; }
+    .category-wrapper .category-box {
+      width: 25% !important; } }
 /* ---------------------------------------------
 		MEDIAQUERIES 992 PX
 --------------------------------------------- */
