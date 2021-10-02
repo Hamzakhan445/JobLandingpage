@@ -1,18 +1,20 @@
 
-
-@media screen and (max-width: 1177px)
+@media screen and (min-width: 1000px)
 {
-      .category-wrapper{
-        background: red !important;
-
-
-        .category-box{
-             width: 30% !important;
-        }
+      .heading-section{
+        padding-top: 100px;
       }
+      .category-wrapper{
+         .category-box{
+              width: 31% !important;
+          }
+      }
+      .clientsection{
+         margin-top: 70px !important;
+      }
+
+    
 }
-
-
 /* ---------------------------------------------
 		MEDIAQUERIES 992 PX
 --------------------------------------------- */
@@ -21,6 +23,8 @@
 
      .clientsection{
          flex-wrap: wrap;
+         margin-top: 360px;
+ 
     img{
          margin: 20px auto !important;
     }
@@ -29,7 +33,7 @@
 
 
    .heading-text{
-        padding-top: 500px !important;
+        padding-top: 450px !important;
    }
 
    .heading-section{
@@ -37,9 +41,7 @@
       margin-top: 30px !important;
    }
    }
- 	.client-section{
- 		margin-top: 300px !important;
- 	}
+
 
  	///headingsectino
  
@@ -89,6 +91,7 @@
 --------------------------------------------- */
  @media screen and (max-width: 576px)
  {
+
     .banner-counter{
           flex-direction: column;
           line-height: 40px;

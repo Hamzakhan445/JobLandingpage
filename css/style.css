@@ -30,12 +30,11 @@ h1, h2, h3, h4, h5, h6 {
 header {
   width: 100%;
   height: 100vh;
-  background: lightyellow;
   padding-top: 100px !important; }
   header .nav-menu {
     width: 100%;
     padding: 10px;
-    background: lightyellow; }
+    background: white; }
     header .nav-menu .toplogo {
       color: #264065 !important;
       font-size: xx-large;
@@ -122,7 +121,6 @@ header {
 .clientsection {
   background: white;
   padding: 20px;
-  margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -180,28 +178,30 @@ header {
   height: 60px;
   object-fit: cover; }
 
-@media screen and (max-width: 1177px) {
-  .category-wrapper {
-    background: red !important; }
-    .category-wrapper .category-box {
-      width: 30% !important; } }
+@media screen and (min-width: 1000px) {
+  .heading-section {
+    padding-top: 100px; }
+
+  .category-wrapper .category-box {
+    width: 31% !important; }
+
+  .clientsection {
+    margin-top: 70px !important; } }
 /* ---------------------------------------------
 		MEDIAQUERIES 992 PX
 --------------------------------------------- */
 @media screen and (max-width: 992px) {
   .clientsection {
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-top: 360px; }
     .clientsection img {
       margin: 20px auto !important; }
 
   .heading-text {
-    padding-top: 500px !important; }
+    padding-top: 450px !important; }
 
   .heading-section .heading-img img {
     margin-top: 30px !important; }
-
-  .client-section {
-    margin-top: 300px !important; }
 
   .category-wrapper {
     flex-wrap: wrap; }
