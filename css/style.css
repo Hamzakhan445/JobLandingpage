@@ -148,7 +148,8 @@ header {
   .category-section .category-wrapper {
     width: 100%;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    background: green; }
     .category-section .category-wrapper .category-box {
       width: 25%;
       padding: 15px;
