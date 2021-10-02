@@ -180,6 +180,10 @@ header {
   height: 60px;
   object-fit: cover; }
 
+@media screen and (max-width: 1177px) {
+  header {
+    padding-top: 100px;
+    background: green; } }
 /* ---------------------------------------------
 		MEDIAQUERIES 992 PX
 --------------------------------------------- */
