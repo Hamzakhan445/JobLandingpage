@@ -186,14 +186,14 @@ header {
     width: 31% !important; }
 
   .clientsection {
-    margin-top: 270px !important; } }
+    margin-top: 300px !important; } }
 /* ---------------------------------------------
 		MEDIAQUERIES 992 PX
 --------------------------------------------- */
 @media screen and (max-width: 992px) {
   .clientsection {
     flex-wrap: wrap;
-    margin-top: 500px !important; }
+    margin-top: 580px !important; }
     .clientsection img {
       margin: 20px auto !important; }
 
