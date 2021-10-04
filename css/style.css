@@ -193,7 +193,7 @@ header {
 @media screen and (max-width: 992px) {
   .clientsection {
     flex-wrap: wrap;
-    margin-top: 420px !important; }
+    margin-top: 520px !important; }
     .clientsection img {
       margin: 20px auto !important; }
 
