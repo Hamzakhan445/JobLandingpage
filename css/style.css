@@ -189,8 +189,11 @@ header {
     margin-top: 300px !important; } }
 /* ---------------------------------------------
 		MEDIAQUERIES 992 PX
---------------------------------------------- */
+--------------------sw------------------------- */
 @media screen and (max-width: 992px) {
+  .heading-section {
+    margin-top: 200px !important; }
+
   .clientsection {
     flex-wrap: wrap;
     margin-top: 550px !important; }
