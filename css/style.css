@@ -193,7 +193,7 @@ header {
 @media screen and (max-width: 992px) {
   .clientsection {
     flex-wrap: wrap;
-    margin-top: 6200px !important; }
+    margin-top: 620px !important; }
     .clientsection img {
       margin: 20px auto !important; }
 
@@ -226,7 +226,7 @@ header {
 --------------------------------------------- */
 @media screen and (max-width: 576px) {
   .clientsection {
-    margin-top: 500px !important; }
+    margin-top: 600px !important; }
 
   .banner-counter {
     flex-direction: column;
