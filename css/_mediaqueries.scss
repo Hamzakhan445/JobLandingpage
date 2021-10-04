@@ -23,7 +23,7 @@
 
      .clientsection{
          flex-wrap: wrap;
-         margin-top: 580px !important;
+         margin-top: 6200px !important;
  
     img{
          margin: 20px auto !important;
@@ -91,7 +91,9 @@
 --------------------------------------------- */
  @media screen and (max-width: 576px)
  {
-
+     .clientsection{
+         margin-top: 500px !important;
+     }
     .banner-counter{
           flex-direction: column;
           line-height: 40px;
