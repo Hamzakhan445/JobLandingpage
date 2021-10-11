@@ -229,7 +229,7 @@ header {
 --------------------------------------------- */
 @media screen and (max-width: 576px) {
   .clientsection {
-    margin-top: 600px !important; }
+    margin-top: 800px !important; }
 
   .banner-counter {
     flex-direction: column;
