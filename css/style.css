@@ -30,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
   width: 100%;
   height: 100vh;
-  padding-top: 100px !important; }
+  padding-top: 100px !important;
+  background: lightyellow; }
   header .nav-menu {
     width: 100%;
     padding: 10px;
@@ -49,34 +50,28 @@ header {
         text-decoration: none;
         color: grey !important;
         font-size: 18px; }
-  header .heading-section {
-    height: 80vh;
-    width: 100%;
+  header .heading-section .heading-text h1 {
+    font-size: 4rem;
+    color: #264065; }
+  header .heading-section .heading-text span {
+    color: #1a93af; }
+  header .heading-section .heading-text h1, header .heading-section .heading-text p {
+    margin-top: 17px; }
+  header .heading-section .heading-text .top-search {
+    background: white;
     display: flex;
-    justify-content: center;
-    align-items: center; }
-    header .heading-section .heading-text h1 {
-      font-size: 4rem;
-      color: #264065; }
-    header .heading-section .heading-text span {
-      color: #1a93af; }
-    header .heading-section .heading-text h1, header .heading-section .heading-text p {
-      margin-top: 17px; }
-    header .heading-section .heading-text .top-search {
-      background: white;
-      display: flex;
-      margin-top: 20px;
-      width: 90%; }
-      header .heading-section .heading-text .top-search i {
-        font-size: 19px;
-        color: grey; }
-      header .heading-section .heading-text .top-search .job-search {
-        border: none;
-        background: none;
-        padding: 10px; }
-      header .heading-section .heading-text .top-search .job-search:focus {
-        border: none;
-        outline: none; }
+    margin-top: 20px;
+    width: 90%; }
+    header .heading-section .heading-text .top-search i {
+      font-size: 19px;
+      color: grey; }
+    header .heading-section .heading-text .top-search .job-search {
+      border: none;
+      background: none;
+      padding: 10px; }
+    header .heading-section .heading-text .top-search .job-search:focus {
+      border: none;
+      outline: none; }
 
 .menuitem {
   position: relative; }
@@ -178,30 +173,23 @@ header {
   height: 60px;
   object-fit: cover; }
 
-@media screen and (min-width: 1000px) {
-  .heading-section {
-    padding-top: 150px !important; }
-
-  .category-wrapper .category-box {
-    width: 31% !important; }
-
+@media screen and (max-width: 1024px) {
   .clientsection {
-    margin-top: 300px !important; } }
+    margin-top: 400px !important; } }
 /* ---------------------------------------------
 		MEDIAQUERIES 992 PX
---------------------sw------------------------- */
+--------------------------------------------- */
 @media screen and (max-width: 992px) {
   .heading-section {
-    margin-top: 100px !important; }
+    background: lightyellow !important; }
 
   .clientsection {
-    flex-wrap: wrap;
-    margin-top: 580px !important; }
+    margin-top: 600px !important; }
+
+  .clientsection {
+    flex-wrap: wrap; }
     .clientsection img {
       margin: 20px auto !important; }
-
-  .heading-text {
-    padding-top: 450px !important; }
 
   .heading-section .heading-img img {
     margin-top: 30px !important; }
@@ -228,9 +216,6 @@ header {
 		MEDIAQUERIES 576 PX
 --------------------------------------------- */
 @media screen and (max-width: 576px) {
-  .clientsection {
-    margin-top: 800px !important; }
-
   .banner-counter {
     flex-direction: column;
     line-height: 40px; }
@@ -239,22 +224,6 @@ header {
     flex-wrap: wrap; }
     .category-wrapper .category-box {
       width: 96% !important; } }
-@media screen and (max-width: 450px) {
-  .clientsection {
-    margin-top: 500px !important; }
-
-  header {
-    padding-top: 100px !important; }
-
-  .heading-section {
-    height: 40vh !important; }
-    .heading-section .heading-text h1 {
-      font-size: 50px !important; }
-    .heading-section .heading-text p {
-      font-size: 17px !important; }
-
-  .clientsection {
-    margin-top: -100px !important; } }
 .banner-section {
   margin-top: 100px; }
   .banner-section .bannertext h1 {
